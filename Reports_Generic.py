@@ -691,7 +691,7 @@ def main():
             }
     )
 
-    output_ritm = os.path.join(output, 'Eureka', 'Reports', f'{ritm_num}', f'{evidence_num}')
+    output_ritm = os.path.join(output, 'Generic', 'Reports', f'{ritm_num}', f'{evidence_num}')
     os.makedirs(output_ritm, exist_ok=True)
     fcrname = f'{ritm_num}_{evidence_num}_FirstContactReport_{date}.html'
     dirtreename = f'{ritm_num}_{evidence_num}_DirTreeReport_{date}.html'
